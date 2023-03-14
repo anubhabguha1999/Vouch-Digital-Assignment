@@ -1,0 +1,278 @@
+[
+    {
+        "_id": 1,
+        "mod_name": "Home / Dashboard",
+        "child": [
+            {
+                "_id": 1.1,
+                "name": "Show All Sub Modules"
+            },
+            {
+                "_id": 1.2,
+                "name": "Summary"
+            },
+            {
+                "_id": 1.3,
+                "name": "View Tasks"
+            },
+            {
+                "_id": 1.4,
+                "name": "Create New Task"
+            },
+            {
+                "_id": 1.5,
+                "name": "Logbook"
+            },
+            {
+                "_id": 1.6,
+                "name": "Logsheet",
+                "subChild": [
+                    "Daily",
+                    "Activity Wise"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 2,
+        "mod_name": "Helpdesk",
+        "child": [
+            {
+                "_id": 2.1,
+                "name": "Show All Sub Modules"
+            },
+            {
+                "_id": 2.2,
+                "name": "Summary",
+                "subChild": [
+                    "Daily",
+                    "Activity Wise"
+                ]
+            },
+            {
+                "_id": 2.3,
+                "name": "View Tasks"
+            },
+            {
+                "_id": 2.4,
+                "name": "Create New Task"
+            },
+            {
+                "_id": 2.5,
+                "name": "Logbook"
+            },
+            {
+                "_id": 2.6,
+                "name": "Logsheet"
+            }
+        ]
+    },
+    {
+        "_id": 3,
+        "mod_name": "Assets",
+        "child": [
+            {
+                "_id": 3.1,
+                "name": "Show All Sub Modules"
+            },
+            {
+                "_id": 3.2,
+                "name": "Summary"
+            },
+            {
+                "_id": 3.3,
+                "name": "View Tasks",
+                "subChild": [
+                    "Daily",
+                    "Activity Wise"
+                ]
+            },
+            {
+                "_id": 3.4,
+                "name": "Create New Task"
+            },
+            {
+                "_id": 3.5,
+                "name": "Logbook"
+            },
+            {
+                "_id": 3.6,
+                "name": "Logsheet"
+            }
+        ]
+    },
+    {
+        "_id": 4,
+        "mod_name": "Daily Tasks",
+        "child": [
+            {
+                "_id": 4.1,
+                "name": "Show All Sub Modules"
+            },
+            {
+                "_id": 4.2,
+                "name": "Summary"
+            },
+            {
+                "_id": 4.3,
+                "name": "View Tasks"
+            },
+            {
+                "_id": 4.4,
+                "name": "Create New Task"
+            },
+            {
+                "_id": 4.5,
+                "name": "Logbook"
+            },
+            {
+                "_id": 4.6,
+                "name": "Logsheet",
+                "subChild": [
+                    "Daily",
+                    "Activity Wise"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 5,
+        "mod_name": "PPM",
+        "child": [
+            {
+                "_id": 5.1,
+                "name": "Show All Sub Modules"
+            },
+            {
+                "_id": 5.2,
+                "name": "Summary"
+            },
+            {
+                "_id": 5.3,
+                "name": "View Tasks"
+            },
+            {
+                "_id": 5.4,
+                "name": "Create New Task"
+            },
+            {
+                "_id": 5.5,
+                "name": "Logbook"
+            },
+            {
+                "_id": 5.6,
+                "name": "Logsheet",
+                "subChild": [
+                    "Daily",
+                    "Activity Wise"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 6,
+        "mod_name": "Employees",
+        "child": [
+            {
+                "_id": 6.1,
+                "name": "Show All Sub Modules"
+            },
+            {
+                "_id": 6.2,
+                "name": "Summary",
+                "subChild": [
+                    "Daily",
+                    "Activity Wise"
+                ]
+            },
+            {
+                "_id": 6.3,
+                "name": "View Tasks"
+            },
+            {
+                "_id": 6.4,
+                "name": "Create New Task"
+            },
+            {
+                "_id": 6.5,
+                "name": "Logbook"
+            },
+            {
+                "_id": 6.6,
+                "name": "Logsheet",
+                "subChild": [
+                    "Daily",
+                    "Activity Wise"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 7,
+        "mod_name": "Profile",
+        "child": [
+            {
+                "_id": 7.1,
+                "name": "Show All Sub Modules"
+            },
+            {
+                "_id": 7.2,
+                "name": "Summary"
+            },
+            {
+                "_id": 7.3,
+                "name": "View Tasks"
+            },
+            {
+                "_id": 7.4,
+                "name": "Create New Task",
+                "subChild": [
+                    "Daily",
+                    "Activity Wise"
+                ]
+            },
+            {
+                "_id": 7.5,
+                "name": "Logbook"
+            },
+            {
+                "_id": 7.6,
+                "name": "Logsheet"
+            }
+        ]
+    },
+    {
+        "_id": 8,
+        "mod_name": "Transactions",
+        "child": [
+            {
+                "_id": 8.1,
+                "name": "Show All Sub Modules"
+            },
+            {
+                "_id": 8.2,
+                "name": "Summary"
+            },
+            {
+                "_id": 8.3,
+                "name": "View Tasks"
+            },
+            {
+                "_id": 8.4,
+                "name": "Create New Task"
+            },
+            {
+                "_id": 8.5,
+                "name": "Logbook",
+                "subChild": [
+                    "Daily",
+                    "Activity Wise"
+                ]
+            },
+            {
+                "_id": 8.6,
+                "name": "Logsheet"
+            }
+        ]
+    }
+]

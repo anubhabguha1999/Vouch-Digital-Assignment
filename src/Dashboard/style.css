@@ -1,0 +1,275 @@
+/* nav aside  */
+.aside_container {
+    position: fixed;
+    width: 336px;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 101;
+}
+
+.aside {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    box-shadow: 0px 1px 5px rgba(3, 0, 55, 0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container_aside {
+    width: 100%;
+    padding: 0px 16px;
+}
+
+.Company {
+    width: 100%;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    padding: 24px 0px;
+}
+
+.menu-aside {
+    width: 100%;
+}
+
+.search-feild {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #E6E6E6;
+    border-radius: 24px;
+    position: relative;
+    padding: 8px 16px 12px 38px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 10px;
+    left: 16px;
+    width: 8px;
+    height: 8px;
+}
+
+.search-input {
+    width: 100%;
+    height: 20px;
+}
+
+.search-input input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    background: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8E96A0;
+}
+
+/* title  */
+.aside-title {
+    width: 100%;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #B8BABC;
+    text-transform: uppercase;
+    margin-top: 24px;
+}
+
+.viewLink_container {
+    width: 100%;
+    height: 84px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.ViewLink {
+    height: 38px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.ViewLink a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #686687;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.ViewLink.active,
+.ViewLink:active {
+    box-shadow: 0px 4px 16px rgba(3, 0, 55, 0.08);
+    background: #153AC7;
+}
+
+.ViewLink.active a,
+.ViewLink:active a {
+    color: #fff;
+}
+
+/* logout btn  */
+.sideLogout {
+    width: 100%;
+    padding: 16px 20px;
+    border-top: 1px solid #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.userPic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.userPic::before {
+    content: "";
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    height: 6px;
+    width: 6px;
+    background: #14CDA2;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.UserName {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #233244;
+}
+
+.UserID {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #233244;
+}
+
+.userOut {
+    cursor: pointer;
+}
+
+/* .Dashboard  */
+.leftDash {
+    display: flex;
+    align-items: center;
+}
+
+.toggleBtn {
+    display: none;
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+.Dashboard {
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    background: #F8F9FD;
+    z-index: 100;
+    padding: 0px 24px;
+}
+
+.board_cont {
+    width: 100%;
+    height: 100%;
+}
+
+.Dashboard_header {
+    width: 100%;
+    height: 90px;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clientOP {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    color: #030037;
+}
+
+.file_path {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #030037;
+    margin-top: 4px;
+}
+
+.file_path span {
+    color: #686687;
+}
+
+@media (max-width:1366px) {
+    .aside_container {
+        width: 300px;
+    }
+}
+
+@media (max-width:1024px) {
+    .aside_container {
+        display: none;
+        width: 100%;
+    }
+
+    .aside_container.active {
+        display: block;
+    }
+
+    .aside {
+        width: 300px;
+    }
+
+    .toggleBtn {
+        display: block;
+    }
+
+    .notifi {
+        display: none;
+    }
+}

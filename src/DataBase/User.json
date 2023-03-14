@@ -1,0 +1,122 @@
+[
+    {
+        "_id": 101,
+        "Company_Name": "Infosys",
+        "logo": "./Assets/User/User1.png",
+        "Email_Address": "management@infosys.com",
+        "Phone_No": "+91 9563214587",
+        "Contact_Person": "Vijayent Roy ",
+        "Facilitator": "--",
+        "Sites": 12,
+        "Tenants": "--",
+        "Tenant_Groups": "--"
+    },
+    {
+        "_id": 102,
+        "Company_Name": "Wipro",
+        "logo": "./Assets/User/User2.png",
+        "Email_Address": "management@wipro.com",
+        "Phone_No": "+91 9834687423",
+        "Contact_Person": "Kalpit Soni ",
+        "Facilitator": "--",
+        "Sites": 8,
+        "Tenants": "--",
+        "Tenant_Groups": "--"
+    },
+    {
+        "_id": 103,
+        "Company_Name": "Accenture ",
+        "logo": "./Assets/User/User3.png",
+        "Email_Address": "management@accenture.com",
+        "Phone_No": "+91 8732654789",
+        "Contact_Person": "Drishti Sane",
+        "Facilitator": "--",
+        "Sites": 4,
+        "Tenants": "--",
+        "Tenant_Groups": "--"
+    },
+    {
+        "_id": 104,
+        "Company_Name": "Capgemini",
+        "logo": "./Assets/User/User4.png",
+        "Email_Address": "management@capgemini.com",
+        "Phone_No": "+91 8432657995",
+        "Contact_Person": "Aisha Keer",
+        "Facilitator": "--",
+        "Sites": 6,
+        "Tenants": "--",
+        "Tenant_Groups": "--"
+    },
+    {
+        "_id": 105,
+        "Company_Name": "Lodha",
+        "logo": "./Assets/User/User5.png",
+        "Email_Address": "management@lodha.com",
+        "Phone_No": "+91 9642357894",
+        "Contact_Person": "Kanika Khare",
+        "Facilitator": "--",
+        "Sites": 24,
+        "Tenants": 16,
+        "Tenant_Groups": "--"
+    },
+    {
+        "_id": 106,
+        "Company_Name": "Tata Consultancy Services",
+        "logo": "./Assets/User/User6.png",
+        "Email_Address": "management@tcs.com",
+        "Phone_No": "+91 9632457468",
+        "Contact_Person": "Prabhat Rao ",
+        "Facilitator": "--",
+        "Sites": 20,
+        "Tenants": 16,
+        "Tenant_Groups": "--"
+    },
+    {
+        "_id": 107,
+        "Company_Name": "HCL",
+        "logo": "./Assets/User/User7.png",
+        "Email_Address": "management@hcl.com",
+        "Phone_No": "+91 9452136487",
+        "Contact_Person": "Venkat Pant",
+        "Facilitator": "--",
+        "Sites": 5,
+        "Tenants": 2,
+        "Tenant_Groups": 1
+    },
+    {
+        "_id": 108,
+        "Company_Name": "Redington ",
+        "logo": "./Assets/User/User8.png",
+        "Email_Address": "management@redington.com",
+        "Phone_No": "+91 9326571865",
+        "Contact_Person": "Samir Yadav",
+        "Facilitator": "--",
+        "Sites": "--",
+        "Tenants": 1,
+        "Tenant_Groups": 1
+    },
+    {
+        "_id": 109,
+        "Company_Name": "Mphasis",
+        "logo": "./Assets/User/User9.png",
+        "Email_Address": "management@mphasis.com",
+        "Phone_No": "+91 9874621547",
+        "Contact_Person": "Sweta Chawla",
+        "Facilitator": "--",
+        "Sites": 1,
+        "Tenants": "--",
+        "Tenant_Groups": "--"
+    },
+    {
+        "_id": 110,
+        "Company_Name": "Larsen & Toubro",
+        "logo": "./Assets/User/User10.png",
+        "Email_Address": "management@larsentoubro.com",
+        "Phone_No": "+91 9547154964",
+        "Contact_Person": "Abhishek Kumar",
+        "Facilitator": "--",
+        "Sites": 16,
+        "Tenants": "--",
+        "Tenant_Groups": "--"
+    }
+]
