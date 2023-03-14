@@ -83,11 +83,11 @@ const LoginAct = () => {
         } else if (DataList.status === 400) {
             setTon("Page Not Found.....");
             handleShow();
-            setShowbtn(true);
+            setShowbtn(false);
         } else if (!userData.token) {
             setTon("User Not Exist, please try Again");
             handleShow();
-            setShowbtn(true)
+            setShowbtn(false)
         }
     }
     return (
